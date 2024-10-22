@@ -1,0 +1,54 @@
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Adjust as needed */
+}
+
+.center-form h2 {
+    margin-bottom: 20px;
+}
+
+.center-form Form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.center-form Form .form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.center-form Form Button {
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.center-form Form Button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.center-form Form .form-control:focus {
+    border-color: #0056b3; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5); /* Add shadow on focus */
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .center-form Form {
+        padding: 15px;
+    }
+
+    .center-form Form .form-control {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,20 @@
+.navbar{
+    background-color: aqua;
+}
+
+.navbar .navbar-brand{
+    color: aliceblue;
+}
+
+.navbar .nav-link{
+    color: aliceblue;
+    text-decoration: none !important;
+    margin-right: 20px;
+}
+
+@media (max-width:576px) {
+    .navbar.nav-link {
+        margin-right: 0;
+    }
+    
+}
